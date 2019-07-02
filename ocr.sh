@@ -26,7 +26,7 @@ if [ -z "$lang" ]; then
   echo 'help für mehr Informationen'
   exit 1
 fi
-file=$@
+file=$2
 if [ -z "$file" ]; then
   echo 'SyntaxError texterkennung.sh [lang] [PathToFile]' >&2
   echo 'Datei angeben!' >&2
