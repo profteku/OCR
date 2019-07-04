@@ -1,6 +1,6 @@
 # ÜBER
 
-Dieses Skript vereinfacht die Texterkennung von Multipage PDF- und Tif Dateien.
+Dieses Skript vereinfacht die Texterkennung von Multipage PDF- und Tif-Dateien.
 Zur eigentlichen Texterkennung wird das OpenSource Paket [Tesseract-Ocr](https://github.com/tesseract-ocr/tesseract) verwendet.
 Tesseract unterstützt Unicode (UTF-8) und bis zu 100 Sprachpakete. Das OCR Skript erkennt z.Zt. Deutsch (deu) und Englisch (eng).
 
