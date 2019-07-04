@@ -11,6 +11,7 @@ Zur Verwendung des OCR-Skript werden folgende Anwendungspakete benötigt:
 [ghostscript](https://www.ghostscript.com/index.html)
 
 **Ubuntu/Linux**
+
 Unter Ubuntu 18.04 sind folgende Dependencies zu installieren:
 
     sudo apt-get install tesseract-ocr
@@ -23,6 +24,7 @@ Abschließend wird die ocr.sh Datei ausführbar gemacht:
     echo "alias ocr'=~/ocr/ocr.sh'" >> ~/.bashrc
     
 **MacOS**
+
 Unter MacOS 10.14.5 Mojave müssen zunächst 
 [Xcode](https://developer.apple.com/xcode/)
 
@@ -57,5 +59,5 @@ Simple Kommandozeilen-Eingabe:
 eng*
 
 # Hilfe
-Diese Version ist **Early-Alpha Version 0.3**. Ich freue mich über Feedback. 
+Diese Version ist **Early-Alpha Version 0.4**. Ich freue mich über Feedback. 
 Autor: Marcel Schmidt
