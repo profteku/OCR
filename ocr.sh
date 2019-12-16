@@ -1,7 +1,7 @@
 #!/bin/bash
 #Automatisierte Texterkennung
 #Autor: Marcel Schmidt
-#Version 0.4
+#Version 0.5
 
 if ! [ -x "$(command -v tesseract)" ]; then
   echo 'Tesseract ist nicht installiert.' >&2
@@ -16,7 +16,7 @@ if [ "$lang" = 'help' ]; then
   echo "Verwendung"
   echo " ./texterkennung.sh Sprache PfadzurDatei"
   echo "Sprachvariablen"
-  echo " eng | deu"
+  echo " eng | deu | grc"
   exit 1
 fi
 
@@ -56,3 +56,4 @@ if [ "$extension" = 'tif' ]; then
     fi
 rm input.tif
 mv output.pdf $dir/${filename// /_}.pdf
+tpu bell
