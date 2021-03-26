@@ -1,7 +1,7 @@
 #!/bin/bash
 #Automatisierte Texterkennung
 #Autor: Marcel Schmidt
-#Version 0.5
+#Version 0.6
 
 if ! [ -x "$(command -v tesseract)" ]; then
   echo 'Tesseract ist nicht installiert.' >&2
@@ -51,7 +51,7 @@ if [ "$extension" = 'pdf' ]; then
     rm input.pdf
   fi
 if [ "$extension" = 'tif' ]; then
-  tiffcp $dir/*.tif input.tif
+  cp "$file" input.tif
     tesseract -l $lang input.tif output pdf
     fi
 rm input.tif
